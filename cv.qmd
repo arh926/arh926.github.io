@@ -1,0 +1,16 @@
+---
+title: ""
+page-layout: full
+---
+
+::: {.cv-page}
+
+<div class="cv-viewer">
+<iframe
+  src="files/Aritra_Halder_CV.pdf"
+  title="Aritra Halder CV">
+</iframe>
+</div>
+
+:::
+---

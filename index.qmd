@@ -1,0 +1,149 @@
+---
+page-layout: full
+---
+
+::: {.home-layout}
+
+::: {.home-sidebar}
+
+::: {.sidebar-profile}
+
+::: {.sidebar-photo}
+![](images/headshot.jpg){fig-alt="Aritra Halder"}
+:::
+
+**Assistant Professor of Biostatistics**  
+Dornsife School of Public Health  
+Drexel University
+
+[aritra.halder@drexel.edu](mailto:aritra.halder@drexel.edu)
+
+<div class="sidebar-links">
+<a href="https://scholar.google.com/citations?user=Pq1KTC8AAAAJ&hl=en" aria-label="Google Scholar" title="Google Scholar"><i class="bi bi-mortarboard-fill"></i></a>
+<a href="https://github.com/arh926" aria-label="GitHub" title="GitHub"><i class="bi bi-github"></i></a>
+<a href="cv.qmd">CV</a>
+</div>
+
+:::
+
+::: {.sidebar-funding}
+
+## Grant Funding
+
+::: {.sidebar-grant}
+
+::: {.sidebar-grant-logo}
+![](images/funding/NSF_logo.svg){fig-alt="National Science Foundation"}
+:::
+
+::: {.sidebar-grant-content}
+
+<div class="sidebar-agency">NATIONAL SCIENCE FOUNDATION</div>
+
+### Rates of Change and Boundary Assessment in Spatiotemporal Processes
+
+**Lead PI**
+
+<div class="sidebar-grant-meta">
+NSF DMS 2515897/2515899/2515898<br>
+2026–2029
+</div>
+
+:::
+
+:::
+
+::: {.sidebar-grant}
+
+::: {.sidebar-grant-logo}
+![](images/funding/NIH_logo.png){fig-alt="National Institutes of Health"}
+:::
+
+::: {.sidebar-grant-content}
+
+<div class="sidebar-agency">NATIONAL INSTITUTES OF HEALTH</div>
+
+### Cancer Risks from Unregulated Contaminants of Public Water Systems
+
+**Co-Investigator**
+
+<div class="sidebar-grant-meta">
+R21 CA305033<br>
+2026–2027
+</div>
+
+:::
+
+:::
+
+:::
+
+:::
+
+::: {.home-main}
+
+::: {.home-hero}
+
+<div class="hero-tagline">
+Statistical methods for complex spatial,<br>
+spatiotemporal, and geometric data.
+</div>
+
+<div class="hero-description">
+My research develops statistical methodology at the intersection of spatial statistics, Gaussian processes, statistical computing, and geometric data analysis.
+</div>
+
+<div class="hero-buttons">
+<a href="research.qmd" class="hero-button primary">Research</a>
+<a href="publications.qmd" class="hero-button">Publications</a>
+<a href="cv.qmd"
+   class="hero-button">CV</a>
+</div>
+
+<div class="hero-image">
+<img src="images/manifold-hero.png" alt="Vector fields illustrated on the Stanford Bunny manifold">
+</div>
+
+:::
+
+::: {.home-research}
+
+## Research
+
+<div class="home-research-intro">
+My research develops statistical methodology for complex structured data, with emphasis on spatial and spatiotemporal processes, differential inference, scalable computation, and non-Euclidean domains.
+</div>
+
+::: {.research-grid}
+
+::: {.research-card}
+### Spatial Derivatives & Boundaries
+
+Methods for inference on gradients, directional change, boundaries, wombling, and curvature.
+
+[Explore →](research.qmd)
+:::
+
+::: {.research-card}
+### Statistics on Manifolds
+
+Gaussian processes and differential inference over complex geometric domains.
+
+[Explore →](research.qmd)
+:::
+
+::: {.research-card}
+### Scalable Spatial Computation
+
+Computational methods for complex Bayesian spatial and spatiotemporal models.
+
+[Explore →](research.qmd)
+:::
+
+:::
+
+:::
+
+:::
+
+:::

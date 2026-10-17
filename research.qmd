@@ -1,0 +1,190 @@
+---
+title: "Research"
+page-layout: full
+---
+
+::: {.research-page}
+
+::: {.research-intro}
+
+# Research {.research-page-title}
+
+## Statistical methodology for complex spatial, spatiotemporal, and geometric data.
+
+<div class="research-intro-text">
+
+<p>
+My research develops statistical methods for understanding complex dependence, variation, and change in structured data. A central theme of my work is the development of methods that move beyond inference on the underlying process itself to characterize its <strong>local behavior</strong>—including gradients, directional change, boundaries, and curvature.
+</p>
+
+<p>
+This work spans spatial and spatiotemporal statistics, Gaussian processes, Bayesian computation, and statistical methodology for data observed over non-Euclidean domains.
+</p>
+
+</div>
+
+:::
+
+
+<!-- ============================================================
+     SPATIAL DERIVATIVES
+     ============================================================ -->
+
+::: {.research-area}
+
+::: {.research-area-number}
+01
+:::
+
+::: {.research-area-content}
+
+## Spatial Derivatives, Boundaries & Curvature
+
+Spatial processes are often scientifically interesting not only because of their levels, but because of **how and where they change**. My work develops inferential methods for derivatives of spatial and spatiotemporal processes, allowing local rates and directions of change to be quantified together with their uncertainty.
+
+This perspective provides a foundation for **wombling**, where boundaries are identified through unusually large directional gradients, and extends naturally to higher-order differential behavior through curvature processes. These methods provide tools for detecting and characterizing spatial boundaries, directional change, and other local geometric features of complex processes.
+
+::: {.research-topics}
+**Gradients** · **Directional derivatives** · **Spatial wombling** · **Spatiotemporal wombling** · **Curvature**
+:::
+
+[View related publications →](publications.qmd)
+
+:::
+
+:::
+
+
+<!-- ============================================================
+     MANIFOLDS
+     ============================================================ -->
+
+::: {.research-area}
+
+::: {.research-area-number}
+02
+:::
+
+::: {.research-area-content}
+
+## Gaussian Processes & Differential Inference on Manifolds
+
+Many modern data are observed over domains whose geometry cannot be adequately represented by ordinary Euclidean space. Examples include cortical surfaces, anatomical structures, environmental surfaces, and other complex geometric objects.
+
+My work develops Gaussian-process methodology directly over **manifold domains**, with particular emphasis on differential inference. Rather than treating the manifold merely as a complicated coordinate system embedded in three-dimensional space, the goal is to formulate gradients, directional derivatives, curvature, and related quantities intrinsically with respect to the geometry of the domain.
+
+This creates a framework for extending spatial derivative processes and wombling to non-Euclidean settings and provides a foundation for a broader program of statistical inference for processes observed over manifolds.
+
+::: {.research-topics}
+**Gaussian processes on manifolds** · **Intrinsic gradients** · **Tangent vector fields** · **Curvature** · **Manifold wombling**
+:::
+
+[View related publications →](publications.qmd)
+
+:::
+
+::: {.research-area-figure}
+![](images/manifold-hero.png){fig-alt="Geometric and vector-field quantities illustrated over the Stanford Bunny manifold."}
+:::
+
+:::
+
+
+<!-- ============================================================
+     COMPUTATION
+     ============================================================ -->
+
+::: {.research-area}
+
+::: {.research-area-number}
+03
+:::
+
+::: {.research-area-content}
+
+## Scalable Spatial & Spatiotemporal Computation
+
+Increasingly rich spatial models create substantial computational challenges, particularly for large datasets and complex hierarchical Bayesian models. A complementary component of my research therefore focuses on computational methods that make sophisticated spatial and spatiotemporal models practically usable.
+
+This includes work on efficient Bayesian computation and software as well as research toward scalable Gaussian-process models, nearest-neighbor representations, and multiresolution approaches. A major direction of this work is to connect scalable computation with the derivative and geometric inference developed elsewhere in my research program.
+
+::: {.research-topics}
+**Bayesian computation** · **Scalable Gaussian processes** · **Nearest-neighbor methods** · **Multiresolution models** · **Statistical software**
+:::
+
+[View software →](software.qmd) &nbsp;&nbsp; [View related publications →](publications.qmd)
+
+:::
+
+:::
+
+
+<!-- ============================================================
+     APPLICATIONS
+     ============================================================ -->
+
+::: {.research-area}
+
+::: {.research-area-number}
+04
+:::
+
+::: {.research-area-content}
+
+## Scientific Applications
+
+Methodological development in my research is motivated by scientific problems in which spatial structure, local change, geometry, or computational scale plays an important role.
+
+Applications of this work span environmental and ecological science, public health, and biomedical settings. These collaborations provide both substantive scientific questions and new methodological challenges, particularly when conventional spatial domains or standard measures of association fail to capture the structure of the underlying problem.
+
+::: {.research-topics}
+**Environmental & ecological science** · **Public health** · **Biomedical applications** · **Complex geometric data**
+:::
+
+:::
+
+:::
+
+
+<!-- ============================================================
+     CURRENT DIRECTIONS
+     ============================================================ -->
+
+::: {.research-future}
+
+## Current & Emerging Directions
+
+My current research is developing a unified framework for **differential and geometric inference over complex domains**, while extending these ideas to increasingly large and dynamic datasets.
+
+::: {.future-grid}
+
+::: {.future-item}
+### Manifold Differential Processes
+
+Intrinsic gradients, curvature, directional derivatives, and wombling for stochastic processes defined over manifolds.
+:::
+
+::: {.future-item}
+### Scalable Manifold Gaussian Processes
+
+Nearest-neighbor and scalable Gaussian-process methodology adapted to complex geometric domains.
+:::
+
+::: {.future-item}
+### Multiresolution Models
+
+Multiresolution representations for complex spatial and manifold processes, connecting local geometric structure across scales.
+:::
+
+::: {.future-item}
+### Spatiotemporal Manifolds
+
+Statistical models for processes that evolve through time while being observed over non-Euclidean spatial domains.
+:::
+
+:::
+
+:::
+
+:::
+---

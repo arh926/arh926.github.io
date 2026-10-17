@@ -1,0 +1,36 @@
+project:
+  type: website
+
+website:
+  title: "Aritra Halder"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: teaching.qmd
+        text: Teaching
+      - href: software.qmd
+        text: Software
+      - href: cv.qmd
+        text: CV
+    right:
+      - icon: mortarboard-fill
+        href: "https://scholar.google.com/citations?user=Pq1KTC8AAAAJ&hl=en"
+        aria-label: Google Scholar
+      - icon: github
+        href: https://github.com/arh926
+        aria-label: GitHub
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    link-external-icon: false
+
+execute:
+  freeze: auto

@@ -1,0 +1,173 @@
+---
+title: "Teaching"
+page-layout: full
+---
+
+::: {.teaching-page}
+
+::: {.teaching-intro}
+
+# Teaching {.teaching-page-title}
+
+## Statistical training that connects theory, computation, and scientific application.
+
+<div class="teaching-intro-text">
+<p>
+My teaching emphasizes the connection between statistical theory and the computational tools needed to apply that theory to modern scientific problems. Across methodological and applied courses, I aim to develop both statistical understanding and the ability to translate that understanding into reproducible analysis.
+</p>
+</div>
+
+:::
+
+
+## Courses {.teaching-section-title}
+
+::: {.course-grid}
+
+::: {.course-card}
+
+<div class="course-level">GRADUATE</div>
+
+### Advanced Statistical Computing
+
+Computational methods and tools for modern statistical research, with an emphasis on implementation, reproducibility, and efficient statistical programming.
+
+<div class="course-meta">
+Drexel University · 2024–present
+</div>
+
+:::
+
+
+::: {.course-card}
+
+<div class="course-level">GRADUATE</div>
+
+### Spatial & Spatiotemporal Modeling with Applications
+
+Statistical modeling for spatially and temporally structured data, connecting Gaussian-process methodology with practical analysis and computation.
+
+<div class="course-meta">
+Drexel University · 2024
+</div>
+
+:::
+
+
+::: {.course-card}
+
+<div class="course-level">GRADUATE</div>
+
+### Generalized Linear Models
+
+Theory and application of generalized linear models, with emphasis on statistical inference, model formulation, diagnostics, and implementation.
+
+<div class="course-meta">
+Drexel University · 2025–present
+</div>
+
+:::
+
+
+::: {.course-card}
+
+<div class="course-level">GRADUATE</div>
+
+### Statistical Inference I
+
+Foundations of statistical inference, including likelihood-based methods, estimation, hypothesis testing, and theoretical properties of statistical procedures.
+
+<div class="course-meta">
+Drexel University · 2026
+</div>
+
+:::
+
+:::
+
+
+## Workshops & Specialized Instruction {.teaching-section-title}
+
+::: {.teaching-feature}
+
+### Spatial & Spatiotemporal Modeling with Applications in R
+
+**Urban Health Collaborative Summer Workshop**
+
+An applied introduction to spatial and spatiotemporal data analysis using R, designed to connect statistical methodology with substantive problems in public health and related fields.
+
+<div class="course-meta">
+Drexel University · 2024–present
+</div>
+
+:::
+
+
+::: {.teaching-feature}
+
+### Statistical Inference I & II — Ph.D. Qualifying Examination Preparation
+
+A twelve-week review covering core material in statistical inference and preparation for the doctoral qualifying examination.
+
+<div class="course-meta">
+Drexel University · 2024–present
+</div>
+
+:::
+
+
+## Mentoring {.teaching-section-title}
+
+<div class="mentoring-intro">
+Mentoring is an important part of my teaching. I work with graduate students through doctoral advising, master's research, independent studies, and collaborative methodological projects.
+</div>
+
+::: {.mentoring-grid}
+
+::: {.mentoring-card}
+
+<div class="mentoring-number">03</div>
+
+### Doctoral Students
+
+Current doctoral students co-advised in Biostatistics.
+
+:::
+
+
+::: {.mentoring-card}
+
+<div class="mentoring-number">02</div>
+
+### Master's Students
+
+Master's research and thesis supervision in Biostatistics.
+
+:::
+
+
+::: {.mentoring-card}
+
+<div class="mentoring-number">01</div>
+
+### Award-Winning Thesis
+
+Master's thesis on spatial and temporal trends in air pollution, recipient of the Dornsife School of Public Health Best Thesis Award.
+
+:::
+
+:::
+
+
+::: {.teaching-bottom}
+
+## Teaching Materials
+
+Selected course materials, computational examples, and workshops can be made available here.
+
+<a href="cv.qmd">CV</a>
+
+:::
+
+:::
+---

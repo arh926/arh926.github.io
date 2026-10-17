@@ -1,0 +1,297 @@
+---
+title: "Publications"
+page-layout: full
+---
+
+::: {.pub-page}
+
+::: {.pub-intro}
+
+# Publications {.pub-page-title}
+
+<div class="pub-intro-text">
+Research in spatial and spatiotemporal statistics, Gaussian processes, Bayesian computation, and statistical methodology for complex structured data.
+</div>
+
+<div class="pub-top-links">
+
+<a href="https://scholar.google.com/citations?user=Pq1KTC8AAAAJ&hl=en" class="pub-icon-link" aria-label="Google Scholar" title="Google Scholar">
+<i class="bi bi-mortarboard-fill"></i>
+</a>
+
+<a href="https://github.com/arh926" class="pub-icon-link" aria-label="GitHub" title="GitHub">
+<i class="bi bi-github"></i>
+</a>
+
+<a href="cv.qmd" class="pub-cv-link">CV</a>
+
+</div>
+
+:::
+
+## Working Papers & Under Review {.pub-section-title}
+
+::: {.pub-list}
+::: {.publication}
+::: {.pub-year}
+2026
+:::
+
+::: pub-entry
+### Smoothness in Scalable Gaussian Processes
+
+**Aritra Halder**, Didong Li, and Sudipto Banerjee.
+
+*In preparation.*
+:::
+:::
+
+::: publication
+::: pub-year
+2026
+:::
+
+::: pub-entry
+### On statistical inference for rates of change in spatial processes over Riemannian manifolds
+
+Didong Li, **Aritra Halder**, and Sudipto Banerjee.
+
+*In preparation.*
+:::
+:::
+
+::: publication
+::: pub-year
+2026
+:::
+
+::: pub-entry
+### The Nearest-Neighbor Derivative Process: Modeling Spatial Rates of Change in Massive Datasets
+
+J. Chen, **Aritra Halder**, Sudipto Banerjee, Y. Li, and Didong Li.
+
+*In preparation.*
+:::
+:::
+
+::: publication
+::: pub-year
+2026
+:::
+
+::: pub-entry
+### Bayesian Wombling for Tracking Invasive Species
+
+**Aritra Halder**, J. Stinziano, and J. Persi.
+
+*Minor revision, Environmental and Ecological Statistics.*
+:::
+:::
+
+::: publication
+::: pub-year
+2026
+:::
+
+::: pub-entry
+### Association of Racial Segregation and Violations of the Safe Drinking Water Act in the United States, 2010–2020
+
+A. Palmer-McCabe, J. Jahn, **Aritra Halder**, H. Pearsall, C. Kondo, and A. De Roos.
+
+*Submitted, Environmental Research: Health.*
+:::
+:::
+:::
+
+## Peer-Reviewed Publications {.pub-section-title}
+
+::: pub-list
+::: publication
+::: pub-year
+2025
+:::
+
+::: pub-entry
+### nimblewomble: An R package for Bayesian Wombling using nimble
+
+**Aritra Halder** and Sudipto Banerjee.
+
+*The R Journal.* In press.
+
+[Software](software.qmd){.pub-link}
+:::
+:::
+
+::: publication
+::: pub-year
+2025
+:::
+
+::: pub-entry
+### Bayesian Spatiotemporal Wombling
+
+**Aritra Halder**, Didong Li, and Sudipto Banerjee.
+
+*Journal of the American Statistical Association, Theory & Methods.* In press.
+
+[Paper](#){.pub-link} [Code](https://github.com/arh926){.pub-link}
+:::
+:::
+
+::: publication
+::: pub-year
+2024
+:::
+
+::: pub-entry
+### Investigating spatial dynamics in spatial omics data with StarTrail
+
+J. Chen, C. Xiong, Q. Sun, G. W. Wang, G. P. Gupta, **Aritra Halder**, Y. Li, and D. Li.
+
+*Journal of the American Statistical Association, Applications & Case Studies.* In press.
+:::
+:::
+
+::: publication
+::: pub-year
+2023
+:::
+
+::: pub-entry
+### Bayesian Modeling with Spatial Curvature Processes
+
+**Aritra Halder**, Sudipto Banerjee, and Dipak K. Dey.
+
+*Journal of the American Statistical Association, Theory & Methods*, **119**(546), 1155–1167.
+
+[Paper](#){.pub-link} [Code](https://github.com/arh926){.pub-link}
+:::
+:::
+
+::: publication
+::: pub-year
+2023
+:::
+
+::: pub-entry
+### Bayesian Variable Selection in Double Generalized Linear Tweedie Spatial Process Models
+
+**Aritra Halder**, S. Mohammed, and Dipak K. Dey.
+
+*New England Journal of Statistics in Data Science*, **1**(2), 187–199.
+:::
+:::
+
+::: publication
+::: pub-year
+2023
+:::
+
+::: pub-entry
+### Measuring Efficacy of the Rural Broadband Initiatives: Evidence from the Housing Market
+
+H. Charankevich, J. Goldstein, **Aritra Halder**, and J. Pender.
+
+*Proceedings of the Eighth International Congress on Information and Communication Technology*, Lecture Notes in Networks and Systems, Vol. 693.
+:::
+:::
+
+::: publication
+::: pub-year
+2022
+:::
+
+::: pub-entry
+### Spatial risk estimation in Tweedie double generalized linear models
+
+**Aritra Halder**, S. Mohammed, K. Chen, and Dipak K. Dey.
+
+*Proceedings of the International E-Conference on Mathematical and Statistical Sciences.*
+:::
+:::
+
+::: publication
+::: pub-year
+2021
+:::
+
+::: pub-entry
+### Spatial Tweedie exponential dispersion models: an application to insurance rate-making
+
+**Aritra Halder**, S. Mohammed, K. Chen, and Dipak K. Dey.
+
+*Scandinavian Actuarial Journal*, **10**, 1017–1036.
+:::
+:::
+
+::: publication
+::: pub-year
+2021
+:::
+
+::: pub-entry
+### COVID-19 Pandemic in India: Through the Lens of Modeling
+
+G. R. Babu, D. Ray, R. Bhaduri, **Aritra Halder**, R. Kundu, G. I. Menon, and B. Mukherjee.
+
+*Global Health: Science and Practice.*
+:::
+:::
+
+::: publication
+::: pub-year
+2021
+:::
+
+::: pub-entry
+### Impact of powder-binder interactions on 3D printability of pharmaceutical tablets using drop test methodology
+
+K. Sen, R. Mukherjee, S. Sansare, **Aritra Halder**, H. Kashi, A. W. K. Ma, and B. Chaudhuri.
+
+*European Journal of Pharmaceutical Sciences*, **160**, 105775.
+:::
+:::
+
+::: publication
+::: pub-year
+2020
+:::
+
+::: pub-entry
+### Predictions, role of interventions and effects of a historic national lockdown in India's response to the COVID-19 pandemic
+
+D. Ray, M. Salvatore, R. Bhattacharyya, L. Wang, S. Mohammed, S. Purkayastha, **Aritra Halder**, et al.
+
+*Harvard Data Science Review*, Special Issue 1.
+:::
+:::
+
+::: publication
+::: pub-year
+2020
+:::
+
+::: pub-entry
+### Statistical quantification of parameters altering tribo-charging in pharmaceutical mixtures
+
+R. Mukherjee, **Aritra Halder**, S. Naik, S. Sansare, and B. Chaudhuri.
+
+*Journal of Pharmaceutical Sciences.*
+:::
+:::
+
+::: publication
+::: pub-year
+2017
+:::
+
+::: pub-entry
+### Regularizing Portfolio Risk: A Bayesian Approach
+
+S. Das, **Aritra Halder**, and Dipak K. Dey.
+
+*Methodology and Computing in Applied Probability*, **19**(3), 865–889.
+:::
+:::
+:::
+:::

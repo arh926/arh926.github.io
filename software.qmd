@@ -1,0 +1,184 @@
+---
+title: "Software"
+page-layout: full
+---
+
+::: {.software-page}
+
+::: {.software-intro}
+
+# Software {.software-page-title}
+
+<div class="software-intro-text">
+<p>
+I develop open-source software implementing methods from my research in spatial and spatiotemporal statistics, Bayesian computation, and statistical inference on manifolds.
+</p>
+</div>
+
+:::
+
+
+<!-- ============================================================
+     FEATURED SOFTWARE
+     ============================================================ -->
+
+::: {.software-featured}
+
+::: {.software-featured-label}
+FEATURED PACKAGE
+:::
+
+## nimblewomble
+
+### Bayesian wombling using `nimble`
+
+`nimblewomble` provides tools for Bayesian wombling and boundary analysis using the `nimble` framework for hierarchical Bayesian modeling.
+
+The package accompanies methodological work on Bayesian wombling and provides an accessible implementation for fitting models, conducting derivative-based inference, and identifying spatial boundaries.
+
+::: {.software-meta}
+**R** · **CRAN** · **Peer-reviewed software**
+:::
+
+::: {.software-links}
+[CRAN](https://cran.r-project.org/web/packages/nimblewomble/index.html){.software-button .software-button-primary}
+[GitHub](https://github.com/arh926/nimblewomble){.software-button}
+[Paper](https://journal.r-project.org/articles/RJ-2026-026/){.software-button}
+:::
+
+:::
+
+
+<!-- ============================================================
+     RESEARCH SOFTWARE
+     ============================================================ -->
+
+## Research Software {.software-section-title}
+
+::: {.software-project-grid}
+
+
+::: {.software-project}
+
+![](images/software/manifoldGPgrad.png){.software-project-image}
+
+<div class="software-project-body">
+
+<div class="software-project-number">01</div>
+
+### manifoldGPgrad
+
+**Gaussian-process derivatives on manifolds**
+
+<div class="software-project-description">
+Bayesian inference for spatial processes, intrinsic gradients, and directional derivatives over Riemannian manifolds.
+</div>
+
+<div class="software-tags">
+R · Gaussian processes · Manifolds
+</div>
+
+[GitHub →](https://github.com/arh926/manifoldGPgrad){.software-project-link}
+
+</div>
+
+:::
+
+
+::: {.software-project}
+
+![](images/software/sptwombling.gif){.software-project-image}
+
+<div class="software-project-body">
+
+<div class="software-project-number">02</div>
+
+### sptwombling
+
+**Spatiotemporal wombling**
+
+<div class="software-project-description">
+Bayesian differential inference and boundary analysis for spatiotemporal processes.
+</div>
+
+<div class="software-tags">
+R · Spatiotemporal statistics · Wombling
+</div>
+
+[GitHub →](https://github.com/arh926/sptwombling){.software-project-link}
+
+</div>
+
+:::
+
+
+::: {.software-project}
+
+![](images/software/spWombling.png){.software-project-image}
+
+<div class="software-project-body">
+
+<div class="software-project-number">03</div>
+
+### spWombling
+
+**Spatial derivatives & wombling**
+
+<div class="software-project-description">
+Bayesian inference for gradients, curvature processes, and curvilinear boundary analysis.
+</div>
+
+<div class="software-tags">
+R · Spatial statistics · Curvature · Wombling
+</div>
+
+[GitHub →](https://github.com/arh926/spWombling){.software-project-link}
+
+</div>
+
+:::
+
+
+::: {.software-project}
+
+![](images/software/sptwdglm.jpg){.software-project-image}
+
+<div class="software-project-body">
+
+<div class="software-project-number">04</div>
+
+### sptwdglm
+
+**Spatial Tweedie models & variable selection**
+
+<div class="software-project-description">
+Bayesian variable selection for double generalized linear Tweedie spatial process models.
+</div>
+
+<div class="software-tags">
+R · Bayesian modeling · Spatial statistics
+</div>
+
+[GitHub →](https://github.com/arh926/sptwdglm){.software-project-link}
+
+</div>
+
+:::
+
+:::
+<!-- ============================================================
+     DEVELOPMENT PHILOSOPHY
+     ============================================================ -->
+
+::: {.software-bottom}
+
+## Research to Software
+
+A recurring goal of my work is to translate new statistical methodology into software that can be used and extended by other researchers. These implementations also provide reproducible computational foundations for the methodological results presented in my publications.
+
+[View publications →](publications.qmd)
+
+:::
+
+:::
+---
