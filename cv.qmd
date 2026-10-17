@@ -3,28 +3,23 @@ title: ""
 page-layout: full
 ---
 
-:::: cv-page
-<div class="cv-mobile-actions">
+::: {.cv-page}
 
-<a href="files/Aritra_Halder_CV.pdf"
-   class="cv-button"
-   target="_blank">
-Open CV
-</a>
+::: {.cv-mobile-actions}
 
-<a href="files/Aritra_Halder_CV.pdf"
-   class="cv-button"
-   download>
-Download CV
-</a>
+[Open CV](files/Aritra_Halder_CV.pdf){.cv-button target="_blank"}
 
-</div>
+[Download CV](files/Aritra_Halder_CV.pdf){.cv-button download=""}
 
-::: cv-viewer
-
-<iframe src="files/Aritra_Halder_CV.pdf" title="Aritra Halder CV">
-
-</iframe>
 :::
-::::
 
+::: {.cv-viewer}
+
+<iframe
+  src="files/Aritra_Halder_CV.pdf"
+  title="Aritra Halder CV">
+</iframe>
+
+:::
+
+:::

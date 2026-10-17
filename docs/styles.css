@@ -1217,32 +1217,8 @@ body {
   padding: 3.5rem 0 5rem 0;
 }
 
-.cv-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  gap: 2rem;
-  margin-bottom: 2rem;
-}
 
-.cv-button {
-  display: inline-block;
-  padding: 0.6rem 1rem;
-  border: 1px solid #292d32;
-  color: #292d32;
-  text-decoration: none;
-  font-size: 0.9rem;
-  font-weight: 600;
-}
-
-.cv-button:hover {
-  background: #292d32;
-  color: white;
-  text-decoration: none;
-}
-
-
-/* Embedded PDF */
+/* ---------- Embedded PDF ---------- */
 
 .cv-viewer {
   width: 100%;
@@ -1253,15 +1229,34 @@ body {
 }
 
 .cv-viewer iframe {
+  display: block;
   width: 100%;
   height: 100%;
   border: 1px solid #e1e3e5;
   background: #f7f7f7;
 }
 
-/* ---------- Mobile-only CV controls ---------- */
+
+/* ---------- Mobile controls ---------- */
+
+/* Desktop: hide buttons */
 .cv-mobile-actions {
   display: none;
+}
+
+.cv-button {
+  padding: 0.7rem 1rem;
+  border: 1px solid #292d32;
+  color: #292d32;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.cv-button:hover {
+  background: #292d32;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 
@@ -1269,35 +1264,25 @@ body {
    CV PAGE — MOBILE
    ========================================================= */
 
-@media (max-width: 800px) {
+@media screen and (max-width: 800px) {
 
   .cv-page {
     width: calc(100% - 3rem);
-    padding: 2.5rem 0 4rem 0;
+    min-height: 300px;
+    padding: 3rem 0;
   }
 
-  .cv-header {
-    display: block;
-  }
-
-  .cv-page-title {
-    font-size: 3rem;
-    margin-bottom: 1.5rem;
-  }
-
-  .cv-actions {
-    display: flex;
+  /* Show buttons */
+  .cv-mobile-actions {
+    display: flex !important;
     flex-wrap: wrap;
     gap: 0.75rem;
-    margin-bottom: 2rem;
+    align-items: center;
   }
 
-  /*
-   * Mobile browsers do not reliably scroll
-   * multi-page PDFs inside an iframe.
-   */
+  /* Hide problematic embedded PDF */
   .cv-viewer {
-    display: none;
+    display: none !important;
   }
 
 }
