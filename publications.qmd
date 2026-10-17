@@ -54,9 +54,10 @@ Research in spatial and spatiotemporal statistics, Gaussian processes, Bayesian 
 ::: pub-entry
 ### On statistical inference for rates of change in spatial processes over Riemannian manifolds
 
-Didong Li, **Aritra Halder**, and Sudipto Banerjee.
+Didong Li$^+$, **Aritra Halder$^+$**, and Sudipto Banerjee.
 
 *In preparation.*
+[Paper](https://doi.org/10.48550/arXiv.2601.02305){.pub-link} [Code](https://github.com/arh926/manifoldGPgrad){.pub-link}
 :::
 :::
 
@@ -71,6 +72,7 @@ Didong Li, **Aritra Halder**, and Sudipto Banerjee.
 J. Chen, **Aritra Halder**, Sudipto Banerjee, Y. Li, and Didong Li.
 
 *In preparation.*
+[Paper](https://doi.org/10.48550/arXiv.2509.02752){.pub-link}
 :::
 :::
 
@@ -245,6 +247,8 @@ H. Charankevich, J. Goldstein, **Aritra Halder**, and J. Pender.
 G. R. Babu, D. Ray, R. Bhaduri, **Aritra Halder**, R. Kundu, G. I. Menon, and B. Mukherjee.
 
 *Global Health: Science and Practice.*
+
+[Paper](https://doi.org/10.9745/GHSP-D-21-00233){.pub-link}
 :::
 :::
 
@@ -259,6 +263,8 @@ G. R. Babu, D. Ray, R. Bhaduri, **Aritra Halder**, R. Kundu, G. I. Menon, and B.
 K. Sen, R. Mukherjee, S. Sansare, **Aritra Halder**, H. Kashi, A. W. K. Ma, and B. Chaudhuri.
 
 *European Journal of Pharmaceutical Sciences*, **160**, 105775.
+
+[Paper](https://doi.org/10.9745/GHSP-D-21-00233){.pub-link}
 :::
 :::
 
@@ -273,6 +279,7 @@ K. Sen, R. Mukherjee, S. Sansare, **Aritra Halder**, H. Kashi, A. W. K. Ma, and 
 D. Ray, M. Salvatore, R. Bhattacharyya, L. Wang, S. Mohammed, S. Purkayastha, **Aritra Halder**, et al.
 
 *Harvard Data Science Review*, Special Issue 1.
+[Paper](https://doi.org/10.1162\%2F99608f92.60e08ed5){.pub-link}
 :::
 :::
 
@@ -287,6 +294,7 @@ D. Ray, M. Salvatore, R. Bhattacharyya, L. Wang, S. Mohammed, S. Purkayastha, **
 R. Mukherjee, **Aritra Halder**, S. Naik, S. Sansare, and B. Chaudhuri.
 
 *Journal of Pharmaceutical Sciences.*
+[Paper](https://doi.org/10.1016/j.xphs.2020.02.001){.pub-link}
 :::
 :::
 
@@ -301,6 +309,7 @@ R. Mukherjee, **Aritra Halder**, S. Naik, S. Sansare, and B. Chaudhuri.
 S. Das, **Aritra Halder**, and Dipak K. Dey.
 
 *Methodology and Computing in Applied Probability*, **19**(3), 865–889.
+[Paper](https://doi.org/10.1007/s11009-016-9524-5){.pub-link}
 :::
 :::
 :::
