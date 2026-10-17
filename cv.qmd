@@ -4,11 +4,27 @@ page-layout: full
 ---
 
 :::: cv-page
+<div class="cv-mobile-actions">
+
+<a href="files/Aritra_Halder_CV.pdf"
+   class="cv-button"
+   target="_blank">
+Open CV
+</a>
+
+<a href="files/Aritra_Halder_CV.pdf"
+   class="cv-button"
+   download>
+Download CV
+</a>
+
+</div>
+
 ::: cv-viewer
+
 <iframe src="files/Aritra_Halder_CV.pdf" title="Aritra Halder CV">
 
 </iframe>
 :::
 ::::
 
-------------------------------------------------------------------------

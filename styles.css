@@ -1225,11 +1225,6 @@ body {
   margin-bottom: 2rem;
 }
 
-.cv-actions {
-  display: flex;
-  gap: 0.75rem;
-}
-
 .cv-button {
   display: inline-block;
   padding: 0.6rem 1rem;
@@ -1264,13 +1259,21 @@ body {
   background: #f7f7f7;
 }
 
+/* ---------- Mobile-only CV controls ---------- */
+.cv-mobile-actions {
+  display: none;
+}
 
-/* Mobile */
+
+/* =========================================================
+   CV PAGE — MOBILE
+   ========================================================= */
 
 @media (max-width: 800px) {
 
   .cv-page {
     width: calc(100% - 3rem);
+    padding: 2.5rem 0 4rem 0;
   }
 
   .cv-header {
@@ -1282,9 +1285,19 @@ body {
     margin-bottom: 1.5rem;
   }
 
+  .cv-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+  }
+
+  /*
+   * Mobile browsers do not reliably scroll
+   * multi-page PDFs inside an iframe.
+   */
   .cv-viewer {
-    height: 75vh;
-    min-height: 600px;
+    display: none;
   }
 
 }
