@@ -162,5 +162,3 @@ Statistical models for processes that evolve through time while being observed o
 :::::::
 ::::::::
 ::::::::::::::::::::::::::::
-
-------------------------------------------------------------------------

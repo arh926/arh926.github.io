@@ -161,4 +161,3 @@ A recurring goal of my work is to translate new statistical methodology into sof
 :::
 :::::::::::::::::::::::::::::::
 
-------------------------------------------------------------------------
