@@ -134,7 +134,7 @@ A. Palmer-McCabe, J. Jahn, **Aritra Halder**, H. Pearsall, C. Kondo, and A. De R
 
 *Journal of the American Statistical Association, Theory & Methods.* In press.
 
-[Paper](#){.pub-link} [Code](https://github.com/arh926){.pub-link}
+[Paper](https://doi.org/10.1080/01621459.2026.2700798){.pub-link} [Code](https://github.com/arh926/sptwombling){.pub-link}
 :::
 :::
 
@@ -149,6 +149,8 @@ A. Palmer-McCabe, J. Jahn, **Aritra Halder**, H. Pearsall, C. Kondo, and A. De R
 J. Chen, C. Xiong, Q. Sun, G. W. Wang, G. P. Gupta, **Aritra Halder**, Y. Li, and D. Li.
 
 *Journal of the American Statistical Association, Applications & Case Studies.* In press.
+
+[Paper](https://doi.org/10.1080/01621459.2026.2654225){.pub-link} [Code](https://github.com/JiawenChenn/StarTrail){.pub-link}
 :::
 :::
 
@@ -164,7 +166,7 @@ J. Chen, C. Xiong, Q. Sun, G. W. Wang, G. P. Gupta, **Aritra Halder**, Y. Li, an
 
 *Journal of the American Statistical Association, Theory & Methods*, **119**(546), 1155–1167.
 
-[Paper](#){.pub-link} [Code](https://github.com/arh926){.pub-link}
+[Paper](https://doi.org/10.1080/01621459.2026.2700798){.pub-link} [Code](https://github.com/arh926/spWombling){.pub-link}
 :::
 :::
 
@@ -179,6 +181,8 @@ J. Chen, C. Xiong, Q. Sun, G. W. Wang, G. P. Gupta, **Aritra Halder**, Y. Li, an
 **Aritra Halder**, S. Mohammed, and Dipak K. Dey.
 
 *New England Journal of Statistics in Data Science*, **1**(2), 187–199.
+
+[Paper](https://doi.org/10.51387/23-NEJSDS37){.pub-link} [Code](https://github.com/arh926/sptwdglm){.pub-link}
 :::
 :::
 
@@ -193,6 +197,8 @@ J. Chen, C. Xiong, Q. Sun, G. W. Wang, G. P. Gupta, **Aritra Halder**, Y. Li, an
 H. Charankevich, J. Goldstein, **Aritra Halder**, and J. Pender.
 
 *Proceedings of the Eighth International Congress on Information and Communication Technology*, Lecture Notes in Networks and Systems, Vol. 693.
+
+[Paper](https://doi.org/10.1007/978-981-99-3243-6_30){.pub-link}
 :::
 :::
 
@@ -207,6 +213,8 @@ H. Charankevich, J. Goldstein, **Aritra Halder**, and J. Pender.
 **Aritra Halder**, S. Mohammed, K. Chen, and Dipak K. Dey.
 
 *Proceedings of the International E-Conference on Mathematical and Statistical Sciences.*
+
+[Paper](https://doi.org/10.48550/arXiv.1912.12356){.pub-link}
 :::
 :::
 
@@ -221,6 +229,8 @@ H. Charankevich, J. Goldstein, **Aritra Halder**, and J. Pender.
 **Aritra Halder**, S. Mohammed, K. Chen, and Dipak K. Dey.
 
 *Scandinavian Actuarial Journal*, **10**, 1017–1036.
+
+[Paper](https://doi.org/10.1080/03461238.2021.1921017){.pub-link}
 :::
 :::
 
