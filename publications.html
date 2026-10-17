@@ -74,6 +74,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -196,8 +225,8 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <section id="on-statistical-inference-for-rates-of-change-in-spatial-processes-over-riemannian-manifolds" class="level3 pub-entry">
 <h3 class="anchored" data-anchor-id="on-statistical-inference-for-rates-of-change-in-spatial-processes-over-riemannian-manifolds">On statistical inference for rates of change in spatial processes over Riemannian manifolds</h3>
-<p>Didong Li, <strong>Aritra Halder</strong>, and Sudipto Banerjee.</p>
-<p><em>In preparation.</em></p>
+<p>Didong Li<span class="math inline">\(^+\)</span>, <strong>Aritra Halder<span class="math inline">\(^+\)</span></strong>, and Sudipto Banerjee.</p>
+<p><em>In preparation.</em> <a href="https://doi.org/10.48550/arXiv.2601.02305" class="pub-link">Paper</a> <a href="https://github.com/arh926/manifoldGPgrad" class="pub-link">Code</a></p>
 </section>
 </div>
 <div class="publication">
@@ -207,7 +236,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="the-nearest-neighbor-derivative-process-modeling-spatial-rates-of-change-in-massive-datasets" class="level3 pub-entry">
 <h3 class="anchored" data-anchor-id="the-nearest-neighbor-derivative-process-modeling-spatial-rates-of-change-in-massive-datasets">The Nearest-Neighbor Derivative Process: Modeling Spatial Rates of Change in Massive Datasets</h3>
 <p>J. Chen, <strong>Aritra Halder</strong>, Sudipto Banerjee, Y. Li, and Didong Li.</p>
-<p><em>In preparation.</em></p>
+<p><em>In preparation.</em> <a href="https://doi.org/10.48550/arXiv.2509.02752" class="pub-link">Paper</a></p>
 </section>
 </div>
 <div class="publication">
@@ -331,6 +360,7 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="covid-19-pandemic-in-india-through-the-lens-of-modeling">COVID-19 Pandemic in India: Through the Lens of Modeling</h3>
 <p>G. R. Babu, D. Ray, R. Bhaduri, <strong>Aritra Halder</strong>, R. Kundu, G. I. Menon, and B. Mukherjee.</p>
 <p><em>Global Health: Science and Practice.</em></p>
+<p><a href="https://doi.org/10.9745/GHSP-D-21-00233" class="pub-link">Paper</a></p>
 </section>
 </div>
 <div class="publication">
@@ -341,6 +371,7 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="impact-of-powder-binder-interactions-on-3d-printability-of-pharmaceutical-tablets-using-drop-test-methodology">Impact of powder-binder interactions on 3D printability of pharmaceutical tablets using drop test methodology</h3>
 <p>K. Sen, R. Mukherjee, S. Sansare, <strong>Aritra Halder</strong>, H. Kashi, A. W. K. Ma, and B. Chaudhuri.</p>
 <p><em>European Journal of Pharmaceutical Sciences</em>, <strong>160</strong>, 105775.</p>
+<p><a href="https://doi.org/10.9745/GHSP-D-21-00233" class="pub-link">Paper</a></p>
 </section>
 </div>
 <div class="publication">
@@ -350,7 +381,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="predictions-role-of-interventions-and-effects-of-a-historic-national-lockdown-in-indias-response-to-the-covid-19-pandemic" class="level3 pub-entry">
 <h3 class="anchored" data-anchor-id="predictions-role-of-interventions-and-effects-of-a-historic-national-lockdown-in-indias-response-to-the-covid-19-pandemic">Predictions, role of interventions and effects of a historic national lockdown in India’s response to the COVID-19 pandemic</h3>
 <p>D. Ray, M. Salvatore, R. Bhattacharyya, L. Wang, S. Mohammed, S. Purkayastha, <strong>Aritra Halder</strong>, et al.</p>
-<p><em>Harvard Data Science Review</em>, Special Issue 1.</p>
+<p><em>Harvard Data Science Review</em>, Special Issue 1. <a href="https://doi.org/10.1162%2F99608f92.60e08ed5" class="pub-link">Paper</a></p>
 </section>
 </div>
 <div class="publication">
@@ -360,7 +391,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="statistical-quantification-of-parameters-altering-tribo-charging-in-pharmaceutical-mixtures" class="level3 pub-entry">
 <h3 class="anchored" data-anchor-id="statistical-quantification-of-parameters-altering-tribo-charging-in-pharmaceutical-mixtures">Statistical quantification of parameters altering tribo-charging in pharmaceutical mixtures</h3>
 <p>R. Mukherjee, <strong>Aritra Halder</strong>, S. Naik, S. Sansare, and B. Chaudhuri.</p>
-<p><em>Journal of Pharmaceutical Sciences.</em></p>
+<p><em>Journal of Pharmaceutical Sciences.</em> <a href="https://doi.org/10.1016/j.xphs.2020.02.001" class="pub-link">Paper</a></p>
 </section>
 </div>
 <div class="publication">
@@ -370,7 +401,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="regularizing-portfolio-risk-a-bayesian-approach" class="level3 pub-entry">
 <h3 class="anchored" data-anchor-id="regularizing-portfolio-risk-a-bayesian-approach">Regularizing Portfolio Risk: A Bayesian Approach</h3>
 <p>S. Das, <strong>Aritra Halder</strong>, and Dipak K. Dey.</p>
-<p><em>Methodology and Computing in Applied Probability</em>, <strong>19</strong>(3), 865–889.</p>
+<p><em>Methodology and Computing in Applied Probability</em>, <strong>19</strong>(3), 865–889. <a href="https://doi.org/10.1007/s11009-016-9524-5" class="pub-link">Paper</a></p>
 </section>
 </div>
 </div>
