@@ -37,3 +37,4 @@ execute:
   freeze: auto
 resources:
   - CNAME
+favicon: images/favicon.png
