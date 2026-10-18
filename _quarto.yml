@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Aritra Halder"
+  favicon: images/favicon.png
   navbar:
     left:
       - href: index.qmd
@@ -37,4 +38,3 @@ execute:
   freeze: auto
 resources:
   - CNAME
-favicon: images/favicon.png
