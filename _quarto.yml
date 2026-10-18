@@ -33,6 +33,7 @@ format:
     css: styles.css
     toc: false
     link-external-icon: false
+    include-in-header: favicon.html
 
 execute:
   freeze: auto
