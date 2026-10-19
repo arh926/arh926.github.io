@@ -13,14 +13,31 @@ page-layout: full
 :::
 
 **Assistant Professor of Biostatistics**  
-Dornsife School of Public Health  
-Drexel University
+Department of Epidemiology and Biostatistics<br>
+Dornsife School of Public Health<br> 
+Drexel University<br>
+Phialdelphia, PA
 
-[aritra.halder@drexel.edu](mailto:aritra.halder@drexel.edu)
+**Adjunct Faculty**<br>
+Department of Biomedical Sciences<br>
+Drexel University<br>
+Elkins Park, PA
+
+**Faculty Affiliate**<br>
+Urban Health Collaborative<br>
+Drexel University<br>
+Phialdelphia, PA
+
+**Office**<br>
+Nesbit 514, 3215 Market Street, Phialdelphia, PA 19132
+
+**Email:**
+aritra dot halder at drexel dot edu
 
 <div class="sidebar-links">
 <a href="https://scholar.google.com/citations?user=Pq1KTC8AAAAJ&hl=en" aria-label="Google Scholar" title="Google Scholar"><i class="bi bi-mortarboard-fill"></i></a>
 <a href="https://github.com/arh926" aria-label="GitHub" title="GitHub"><i class="bi bi-github"></i></a>
+<a href="https://www.linkedin.com/in/aritra-halder-07a137a0/" aria-label="LinkedIn" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
 <a href="cv.qmd">CV</a>
 </div>
 
@@ -85,19 +102,18 @@ R21 CA305033<br>
 ::: {.home-hero}
 
 <div class="hero-tagline">
-Statistical methods for complex spatial,<br>
-spatiotemporal, and geometric data.
+Statistical methods for complex spatial,
+spatiotemporal and geometric data.
 </div>
 
 <div class="hero-description">
-My research develops statistical methodology at the intersection of spatial statistics, Gaussian processes, statistical computing, and geometric data analysis.
+My research program sits at the intersection of Bayesian spatial and spatiotemporal statistics, Gaussian processes, differential geometry, and scalable statistical computing. My current and future work develops this program along three interconnected directions: differential inference for spatial and spatiotemporal processes; scalable Gaussian process methodology; and statistical inference over non-Euclidean domains and Riemannian manifolds. These methodological developments find applications in public health, environmental science, ecology, spatial omics, and biomedical science.
+
+If you are interested to work with me, please email me with a brief explanation of your research interests and a CV. 
 </div>
 
 <div class="hero-buttons">
-<a href="research.qmd" class="hero-button primary">Research</a>
 <a href="publications.qmd" class="hero-button">Publications</a>
-<a href="cv.qmd"
-   class="hero-button">CV</a>
 </div>
 
 <div class="hero-image">
@@ -106,38 +122,59 @@ My research develops statistical methodology at the intersection of spatial stat
 
 :::
 
-::: {.home-research}
+::: {.home-education}
 
-## Research
+## Education
 
-<div class="home-research-intro">
-My research develops statistical methodology for complex structured data, with emphasis on spatial and spatiotemporal processes, differential inference, scalable computation, and non-Euclidean domains.
-</div>
+::: {.education-grid}
 
-::: {.research-grid}
+::: {.education-card}
 
-::: {.research-card}
-### Spatial Derivatives & Boundaries
+<div class="education-year">2020</div>
 
-Methods for inference on gradients, directional change, boundaries, wombling, and curvature.
+### Ph.D. in Statistics
 
-[Explore →](research.qmd)
+**University of Connecticut**
+
+Storrs, Connecticut, USA
+
 :::
 
-::: {.research-card}
-### Statistics on Manifolds
+::: {.education-card}
 
-Gaussian processes and differential inference over complex geometric domains.
+<div class="education-year">2018</div>
 
-[Explore →](research.qmd)
+### M.S. in Statistics
+
+**University of Connecticut**
+
+Storrs, Connecticut,USA
+
 :::
 
-::: {.research-card}
-### Scalable Spatial Computation
+::: {.education-card}
 
-Computational methods for complex Bayesian spatial and spatiotemporal models.
+<div class="education-year">2016</div>
 
-[Explore →](research.qmd)
+### M.Sc. in Applied Mathematics
+
+**Chennai Mathematical Institute**
+
+Chennai, India
+
+:::
+
+
+::: {.education-card}
+
+<div class="education-year">2014</div>
+
+### B.Sc. in Statistics
+
+**Presidency College, University of Calcutta**
+
+Kolkata, India
+
 :::
 
 :::
